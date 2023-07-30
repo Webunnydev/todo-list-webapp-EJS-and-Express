@@ -5,7 +5,6 @@
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
  
 ## Features
