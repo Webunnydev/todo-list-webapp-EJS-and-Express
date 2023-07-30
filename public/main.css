@@ -1,9 +1,4 @@
-body{
-    background-color: black;
-    color: #FFA500;
-}
-
-nav {
+nav{
     display: inline-block;
     list-style: none;
     margin: 2vw;
@@ -16,12 +11,6 @@ nav li i{
     flex-direction:column;
     justify-content:center;
     align-items:center;
-}
-h1{
-    background-color:#FFA500;
-    color:white;
-    padding: 1vw 5vw 1vw 5vw;
-    border-radius:50px;
 }
 .list{
     margin-left:-45px;
