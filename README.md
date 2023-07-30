@@ -1,5 +1,5 @@
 # todo-list-webapp
- This is a simple web application for managing your todo list. It is built using:
+ This is a simple web application for managing your todo list. It is built using Node.js, Express.js, and EJS templating engine.
 
 ## Table of Contents
 - [Features](#features)
@@ -23,3 +23,10 @@ To run this apllication locally, you'll need the following:
 - nodemon
 - body-parser
 - express package
+
+## Installation
+
+1. Clone this repository to your local machine using:
+2. Navigate to the project directory
+  ```bash
+ cd todo-list-webapp
