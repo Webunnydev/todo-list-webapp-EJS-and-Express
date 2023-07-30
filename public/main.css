@@ -11,3 +11,9 @@ nav {
 nav li i{
     margin-right: 1vw;
 }
+h1{
+    background-color:#FFA500;
+    color:white;
+    padding: 2vw;
+    border-radius:20px;
+}

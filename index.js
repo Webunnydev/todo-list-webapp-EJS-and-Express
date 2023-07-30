@@ -5,7 +5,8 @@ const port = 3000;
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-    res.render("index.ejs");
+    var today = new Date().toLocaleDateString('en-us', { weekday:"long", month:"long", day:"numeric"});
+    res.render("index.ejs", {Today: today});
 });
 
 app.listen (port, () => {
