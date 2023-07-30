@@ -11,9 +11,15 @@ nav {
 nav li i{
     margin-right: 1vw;
 }
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
 h1{
     background-color:#FFA500;
     color:white;
-    padding: 2vw;
+    padding: 1vw 2vw 1vw 2vw;
     border-radius:20px;
 }
