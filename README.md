@@ -8,3 +8,9 @@
 - [Usage](#usage)
 - [Contributing](#contributing)
  
+## Features
+
+- Mark todo items as completed or pending.
+- Strikeout the items that are completed.
+- Simple and intuitive user interface.
+
