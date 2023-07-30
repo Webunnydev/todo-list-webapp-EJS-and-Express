@@ -39,5 +39,16 @@ To run this apllication locally, you'll need the following:
   ```bash
  npm start
 ```
-5. Open your web browser and navigate to 'http://localhost:3000' to access the web app.
+5. Open your web browser and navigate to 'localhost:3000' to access the web app.
 6. Start managing your todo list by adding, editing, or marking items as completed.
+
+## Contributing
+
+If you want to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch with a descriptive name for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your branch to your forked repository.
+5. Submit a pull request, detailing the changes you made and the problem it solves.
+
