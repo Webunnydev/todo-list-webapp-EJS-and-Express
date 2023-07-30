@@ -23,12 +23,23 @@ h1{
     padding: 1vw 5vw 1vw 5vw;
     border-radius:50px;
 }
+.list{
+    margin-left:-45px;
+}
 .form{
     background:white;
 }
 #check{
     margin-left:2vw;
 }
+#check {
+    height:1.2vw;
+    width:1.2vw;
+}
+input[type="checkbox"] {
+    accent-color: #FFA500;
+ }
+
 #button{
     padding:0.3vw 0.5vw 0.3vw 0.5vw;
     margin:0.5vw 2vw 0vw 0vw;
@@ -38,26 +49,21 @@ h1{
     font-size:2vw;
     height:3vw;
     width:3vw;
- 
 }
 textarea:focus, input:focus{
     outline:none;
 }
-.list input{
-    padding: 1vw 5vw 1vw 2vw;
+.list form input{
+    padding: 1vw 3vw 1vw 2vw;
     border:none;
 }
-.form-2{
-    visibility:hidden;
-}
-#button:active.form-2{
-    visibility:visible;
+#field{
+    font-size:2vw;
 }
 ::placeholder{
     color:grey;
-    font-size:1vw;
+    font-size:1.5vw;
 }
-input:checked+#filed{
-    text-decoration:line-through;
-}
+ 
+
  
