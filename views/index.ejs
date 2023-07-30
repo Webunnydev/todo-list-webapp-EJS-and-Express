@@ -18,13 +18,15 @@
         <h1><%= Today %></h1>
         <div class="list">
             <ul>
-            <form action="/new-item">
-                <div class="form-1 form">
-                <input type = "checkbox" id="check">
-                <input type = "text" placeholder="New Item" name = "item" id="field">
-                <input type = "button" value="+" id="button" name = "button">
-                </div>
-
+                <% for(let i=0; i< item.length; i++){ %>
+                <li class="form"> <input type = "checkbox" id="check"> 
+                   <p> <%= item[i] %></p>
+                </li>
+                <% }; %>
+ 
+            <form class="form form-1" action="/" method="post">
+                <input type = "text" placeholder="New Item" name = "listItem" id= "field" autocomplete="off">
+                <button type="submit">+</button>
             </form>
             </ul>
         </div>
