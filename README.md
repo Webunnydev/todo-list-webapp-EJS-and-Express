@@ -28,13 +28,16 @@ To run this apllication locally, you'll need the following:
 
 1. Clone this repository to your local machine using:
 2. Navigate to the project directory
-  ```bash
+  ```
  cd todo-list-webapp
+```
 3. Install the required dependencies:
   ```bash
  npm install
+```
 4. Run the application locally:
   ```bash
  npm start
+```
 5. Open your web browser and navigate to 'http://localhost:3000' to access the web app.
 6. Start managing your todo list by adding, editing, or marking items as completed.
