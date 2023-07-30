@@ -31,7 +31,14 @@ h1{
 }
 #button{
     padding:0.3vw 0.5vw 0.3vw 0.5vw;
-    margin-right:2vw;
+    margin:0.5vw 2vw 0vw 0vw;
+    background-color:#FFA500;
+    color:white;
+    border-radius:50%;
+    font-size:2vw;
+    height:3vw;
+    width:3vw;
+ 
 }
 textarea:focus, input:focus{
     outline:none;
@@ -40,3 +47,17 @@ textarea:focus, input:focus{
     padding: 1vw 5vw 1vw 2vw;
     border:none;
 }
+.form-2{
+    visibility:hidden;
+}
+#button:active.form-2{
+    visibility:visible;
+}
+::placeholder{
+    color:grey;
+    font-size:1vw;
+}
+input:checked+#filed{
+    text-decoration:line-through;
+}
+ 
