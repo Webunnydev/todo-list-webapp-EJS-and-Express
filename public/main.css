@@ -28,28 +28,28 @@ h1{
 }
 .form{
     background:white;
-    height:5vw;
+    height:10vh;
     border-bottom:1px solid grey;
 }
 #check{
     margin:2vw;
-    height:1.2vw;
-    width:1.2vw;
+    height:15px;
+    width:15px;
 }
  
 input[type="checkbox"] {
     accent-color: #FFA500;
- }
+}
 
 button{
     padding:0.3vw 0.5vw 0.3vw 0.5vw;
-    margin:0.5vw 2vw 0vw 0vw;
+    margin:1vw 2vw 0vw 0vw;
     background-color:white;
     color:#FFA500;
     border-radius:50%;
-    font-size:2vw;
-    height:3vw;
-    width:3vw;
+    font-size:30px;
+    height:40px;
+    width:40px;
 }
 textarea:focus, input:focus{
     outline:none;
@@ -59,11 +59,12 @@ textarea:focus, input:focus{
     border:none;
 }
 #field{
-    font-size:2vw;
+    font-size:20px;
+    width:30vw;
 }
 ::placeholder{
     color:white;
-    font-size:1.5vw;
+    font-size:20px;
 }
 ul li{
     display:flex;
@@ -71,7 +72,7 @@ ul li{
 }
 ul li p{
     margin-top:1.5vw;
-    font-size:1.8vw;
+    font-size:20px;
     font-weight: bolder;
 }
 input:checked+p{
