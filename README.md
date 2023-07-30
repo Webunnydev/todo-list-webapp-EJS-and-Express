@@ -14,3 +14,12 @@
 - Strikeout the items that are completed.
 - Simple and intuitive user interface.
 
+## Requirements
+
+To run this apllication locally, you'll need the following:
+
+- Node.js (Version 12 or higher)
+- npm (Node Package Manager)
+- nodemon
+- body-parser
+- express package
